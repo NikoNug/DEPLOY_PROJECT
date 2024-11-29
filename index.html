@@ -9,22 +9,45 @@
     <style>
         body {
             scroll-behavior: smooth;
+            background-color: #121212;
+            color: #f8f9fa;
         }
         section {
             padding: 60px 0;
         }
         #home {
-            background-color: #f8f9fa;
             text-align: center;
         }
         #about {
-            background-color: #e9ecef;
+            background-color: #1e1e1e;
+        }
+        .navbar {
+            background-color: #1e1e1e;
+        }
+        .navbar-brand {
+            color: #f0c674 !important;
+        }
+        .nav-link {
+            color: #f8f9fa !important;
+        }
+        .nav-link:hover {
+            color: #f0c674 !important;
         }
         footer {
-            background-color: #212529;
-            color: white;
+            background-color: #1e1e1e;
+            color: #f8f9fa;
             text-align: center;
             padding: 20px 0;
+        }
+        h1, h2 {
+            color: #f0c674;
+        }
+        a {
+            color: #f0c674;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -43,6 +66,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -69,8 +95,44 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <p><strong>Email: </strong> nikonugraha03@gmail.com</p>
-                    <p><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/nikonug/" target="_blank">Linkedin</a></p>
-                    <p><strong>WhatsApp: </strong>+6289630140832</p>
+                    <p><strong><a href="https://www.linkedin.com/in/nikonug/" target="_blank">linkedIn</a></strong></p>
+                    <p><strong><a href="https://wa.me/6289630140832" target="_blank">Whatsapp</a></strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Octagon</h5>
+                            <p class="card-text">Description of project : <br> 1. Backend with Go Programming Language <br> 2. CRUD System <br> 3. Login & Register </p>
+                            <a href="https://github.com/NikoNug/Octagon" target="_blank" class="btn btn-outline-light">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2. This project involves...</p>
+                            <a href="https://github.com/yourusername/project2" target="_blank" class="btn btn-outline-light">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of project 3. This project showcases...</p>
+                            <a href="https://github.com/yourusername/project3" target="_blank" class="btn btn-outline-light">View on GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
